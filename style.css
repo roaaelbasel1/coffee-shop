@@ -1,0 +1,150 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4A3B32;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fcf9f5;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #4A3B32;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #4A3B32;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content a {
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #fcf9f5;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    color: #2c221e;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #4A3B32;
+    color: #fff;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* تنسيق الإحصائيات اللي تحت الزرار */
+.hero-stats {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-stats h3 {
+    font-size: 22px;
+    color: #2c221e;
+    margin-bottom: 5px;
+}
+
+.hero-stats p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+.hero-images-group {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+/* الكوباية الكبيرة تحت */
+.hero-images-group .main-cup {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: auto;
+}
+
+/* الكوبايتين الصغيرين فوق على اليمين */
+.hero-images-group .top-cups {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 220px;
+    height: auto;
+}
